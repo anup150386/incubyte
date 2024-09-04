@@ -1,0 +1,2 @@
+2024-09-04 11:39:40,075 - ERROR - Negative numbers found: [-1, -2]
+2024-09-04 11:39:40,075 - ERROR - Error: Negative numbers found: -1, -2

@@ -2,7 +2,7 @@ import re
 import logging
 import os
 
-filename = os.path.join('logs', 'string_log.txt')
+filename = os.path.join('string_log.txt')
 
 # Configure logging to write to a file
 logging.basicConfig(filename=filename, level=logging.DEBUG,

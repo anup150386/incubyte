@@ -1,7 +1,4 @@
 import unittest
-from src.add_numbers import add_numbers_in_string
-
-import unittest
 from src.add_numbers import add_numbers_in_string, NegativeNumberException
 
 
