@@ -52,3 +52,6 @@ def add_numbers_in_string(input_string):
     except Exception as e:
         logging.error(f"Error: {e}")
         raise
+
+
+print(add_numbers_in_string("-1 and 34 and -2"))
