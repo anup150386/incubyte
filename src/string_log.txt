@@ -1,2 +1,7 @@
 2024-09-04 11:39:40,075 - ERROR - Negative numbers found: [-1, -2]
 2024-09-04 11:39:40,075 - ERROR - Error: Negative numbers found: -1, -2
+2024-09-04 11:42:13,923 - ERROR - Error: invalid literal for int() with base 10: '2e2'
+2024-09-04 14:17:02,947 - ERROR - Error: invalid literal for int() with base 10: '2e2'
+2024-09-04 14:17:18,522 - ERROR - Error: invalid literal for int() with base 10: '2e2'
+2024-09-04 14:17:34,197 - INFO - Input string: 2e2 and 3e3, Extracted positives: [200, 3000], Sum: 3200
+2024-09-04 14:18:38,461 - INFO - Input string: 2e2 and 3e3, Extracted positives: [200, 3000], Sum: 3200

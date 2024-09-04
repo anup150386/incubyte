@@ -1,2 +1,40 @@
 2024-09-04 11:39:02,108 - ERROR - Negative numbers found: [-1, -2]
 2024-09-04 11:39:02,108 - ERROR - Error: Negative numbers found: -1, -2
+2024-09-04 11:41:12,561 - ERROR - Negative numbers found: [-1, -2]
+2024-09-04 11:41:12,561 - ERROR - Error: Negative numbers found: -1, -2
+2024-09-04 14:17:47,143 - INFO - Input string: 2e2 and 3e3, Extracted positives: [200, 3000], Sum: 3200
+2024-09-04 14:17:47,144 - INFO - Input string: , Extracted positives: [], Sum: 0
+2024-09-04 14:17:47,144 - INFO - Input string: 2e3 and 3e2, Extracted positives: [2000, 300], Sum: 2300
+2024-09-04 14:17:47,144 - INFO - Input string: 1.5 and 2.3 and 100, Extracted positives: [1, 5, 2, 3, 100], Sum: 111
+2024-09-04 14:17:47,146 - INFO - Input string: 1000000 and 2000000, Extracted positives: [1000000, 2000000], Sum: 3000000
+2024-09-04 14:17:47,146 - ERROR - Negative numbers found: [-7]
+2024-09-04 14:17:47,146 - ERROR - Error: Negative numbers found: -7
+2024-09-04 14:17:47,146 - INFO - Input string: 12 and 34, Extracted positives: [12, 34], Sum: 46
+2024-09-04 14:17:47,146 - ERROR - Negative numbers found: [-1]
+2024-09-04 14:17:47,146 - ERROR - Error: Negative numbers found: -1
+2024-09-04 14:17:47,146 - INFO - Input string: No numbers here!, Extracted positives: [], Sum: 0
+2024-09-04 14:17:47,146 - INFO - Input string: There are 4 apples and 5 oranges, Extracted positives: [4, 5], Sum: 9
+2024-09-04 14:17:47,146 - INFO - Input string: 123, Extracted positives: [123], Sum: 123
+2024-09-04 14:17:47,147 - INFO - Input string: 1;2|3,4/5, Extracted positives: [1, 2, 3, 4, 5], Sum: 15
+2024-09-04 14:17:47,147 - ERROR - Error: Input must be a string
+2024-09-04 14:17:47,147 - ERROR - Error: Input must be a string
+2024-09-04 14:17:47,147 - ERROR - Error: Input must be a string
+2024-09-04 14:17:47,147 - ERROR - Error: Input must be a string
+2024-09-04 14:18:43,254 - INFO - Input string: 2e2 and 3e3, Extracted positives: [200, 3000], Sum: 3200
+2024-09-04 14:18:43,255 - INFO - Input string: , Extracted positives: [], Sum: 0
+2024-09-04 14:18:43,256 - INFO - Input string: 2e3 and 3e2, Extracted positives: [2000, 300], Sum: 2300
+2024-09-04 14:18:43,256 - INFO - Input string: 1.5 and 2.3 and 100, Extracted positives: [1, 5, 2, 3, 100], Sum: 111
+2024-09-04 14:18:43,256 - INFO - Input string: 1000000 and 2000000, Extracted positives: [1000000, 2000000], Sum: 3000000
+2024-09-04 14:18:43,256 - ERROR - Negative numbers found: [-7]
+2024-09-04 14:18:43,256 - ERROR - Error: Negative numbers found: -7
+2024-09-04 14:18:43,256 - INFO - Input string: 12 and 34, Extracted positives: [12, 34], Sum: 46
+2024-09-04 14:18:43,257 - ERROR - Negative numbers found: [-1]
+2024-09-04 14:18:43,257 - ERROR - Error: Negative numbers found: -1
+2024-09-04 14:18:43,257 - INFO - Input string: No numbers here!, Extracted positives: [], Sum: 0
+2024-09-04 14:18:43,257 - INFO - Input string: There are 4 apples and 5 oranges, Extracted positives: [4, 5], Sum: 9
+2024-09-04 14:18:43,257 - INFO - Input string: 123, Extracted positives: [123], Sum: 123
+2024-09-04 14:18:43,257 - INFO - Input string: 1;2|3,4/5, Extracted positives: [1, 2, 3, 4, 5], Sum: 15
+2024-09-04 14:18:43,258 - ERROR - Error: Input must be a string
+2024-09-04 14:18:43,258 - ERROR - Error: Input must be a string
+2024-09-04 14:18:43,258 - ERROR - Error: Input must be a string
+2024-09-04 14:18:43,258 - ERROR - Error: Input must be a string

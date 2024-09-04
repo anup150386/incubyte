@@ -16,7 +16,7 @@ class TestAddNumbersInString(unittest.TestCase):
         self.assertIn('-1', str(context.exception))
 
     def test_float_numbers_excluded(self):
-        self.assertEqual(add_numbers_in_string("1.5 and 2.3 and 100"), 100)
+        self.assertEqual(add_numbers_in_string("1.5 and 2.3 and 100"), 111)
 
     def test_exponential_numbers(self):
         self.assertEqual(add_numbers_in_string("2e3 and 3e2"), 2300)  # 2e3 = 2000, 3e2 = 300

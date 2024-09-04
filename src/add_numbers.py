@@ -35,8 +35,8 @@ def add_numbers_in_string(input_string):
         all_numbers = re.findall(r'-?\b\d+(?:e\d+)?\b', input_string, re.IGNORECASE)
 
         # Separate positive and negative numbers
-        negatives = [int(num) for num in all_numbers if int(num) < 0]
-        positives = [int(float(num)) for num in all_numbers if int(num) >= 0]
+        negatives = [int(num) for num in all_numbers if int(float(num)) < 0]
+        positives = [int(float(num)) for num in all_numbers if int(float(num)) >= 0]
 
         # If there are negative numbers, raise an exception
         if negatives:
@@ -54,4 +54,4 @@ def add_numbers_in_string(input_string):
         raise
 
 
-print(add_numbers_in_string("-1 and 34 and -2"))
+print(add_numbers_in_string("2e2 and 3e3"))
